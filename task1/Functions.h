@@ -121,7 +121,7 @@ void reserv(void* ptr, const bool& phys) {
         std::cout << "ERROR: " << GetLastError();
         return;
     }
-    std::cout << "Reserved at" << res_ptr << std::endl;
+    std::cout << "Reserved at " << res_ptr << std::endl;
 
 }
 
